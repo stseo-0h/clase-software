@@ -45,7 +45,6 @@ def get_person(input:str):
     #restrict the structure of a person information by {run*, name, lastname, e-mail}
     person = {key:None for key in ['run', 'name', 'lastname', 'e-mail']}
     kwarg_pattern = re.compile(r"\b([a-z]+)=([a-zA-Z]+|(\d{1,3}(?:\.\d{1,3}){2}-[\dkK])+)\b")
-    matches = []
     for match in kwarg_pattern.finditer(input):
         key, value = match.groups()[0:2]
         if key in person:
