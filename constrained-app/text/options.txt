@@ -1,0 +1,6 @@
+Elige una opcion:
+1. Buscar persona   (1)
+2. Agregar persona  (2)
+3. Eliminar persona (3)
+4. Editar persona   (4)
+5. Salir            (5)
